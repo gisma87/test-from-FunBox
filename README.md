@@ -1,7 +1,7 @@
 ## Тестовое для FunBox.ru
 ## [Ссылка на страницу - gisma87.github.io/test-from-FunBox](https://gisma87.github.io/test-from-FunBox/ "корм для котэ") 
+[Ссылка на ответы теста - Level 1](https://github.com/gisma87/test-from-FunBox/blob/master/answers.md "ответы на вопросы теста") 
 *****
-
  Скачать тестовое задание целиком можно здесь: https://dl.funbox.ru/qt-html-css-js.zip.  
 Браузеры: Chrome, Firefox, Safari, IE11; 
 Стандарты: на ваше усмотрение; 
