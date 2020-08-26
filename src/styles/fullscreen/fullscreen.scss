@@ -1,0 +1,35 @@
+.fullscreen {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background-image: url("../images/Pattern.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+
+  &__body {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title {
+    max-width: 1120px;
+    text-shadow: 0 1px 1px #000000;
+    color: #fff;
+    font-family: "Exo 2.0- Thin", serif;
+    font-size: 36px;
+    font-weight: 100;
+    margin: 26px auto;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    flex-wrap: wrap;
+  }
+
+}

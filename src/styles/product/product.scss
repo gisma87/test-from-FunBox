@@ -1,0 +1,128 @@
+.product {
+  font-family: "Trebuchet MS", sans-serif;
+  padding: 21px 20px 20px 50px;
+  background: url("../images/Back.svg") no-repeat center/100%;
+  box-sizing: border-box;
+  width: 320px;
+  height: 480px;
+  text-align: left;
+  position: relative;
+  margin: 0 10px 60px;
+
+  &__border {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 320px;
+    height: 480px;
+    z-index: 2;
+    background: url("../images/Border.svg") no-repeat center/101%;
+  }
+
+  &__border.go-hover:hover ~ .product__size{
+    background-color: #2ea8e6;
+  }
+
+  &__border.go-hover:hover{
+    background-image: url(../images/borderHoverDefault.svg);
+  }
+
+  &__img {
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 315px;
+    max-height: 273px;
+  }
+
+  &__tag {
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+  }
+
+  &__title {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 5px 0 0 0;
+  }
+
+  &__subtitle {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+  }
+
+  &__description {
+    color: #666;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    z-index: 1;
+    position: relative;
+
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -ms-line-clamp: 5;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+  }
+
+  &__size {
+    width: 80px;
+    height: 80px;
+    background-color: #1698d9;
+    border-radius: 50%;
+    bottom: 17px;
+    right: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 18px;
+    box-sizing: border-box;
+  }
+
+  &__size-text {
+    color: white;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 42px;
+    line-height: 22px;
+    margin: 0;
+  }
+
+  &__size-text_font-size-small {
+    font-size: 21px;
+    margin-top: 8px;
+  }
+
+  &__label {
+    color: #fff;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 13px;
+    position: absolute;
+    bottom: -41px;
+    left: 0;
+    width: 320px;
+    text-align: center;
+  }
+
+  &__overlay {
+    background-image: url(../images/backDisabled.svg);
+    opacity: 0.6;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 480px;
+    width: 320px;
+  }
+}

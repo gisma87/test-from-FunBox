@@ -1,0 +1,16 @@
+@import "~normalize.css";
+@import "fonts.css";
+@import "fullscreen/fullscreen";
+@import "product/product";
+@import "modify/modify";
+@import "wiggle/wiggle";
+
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

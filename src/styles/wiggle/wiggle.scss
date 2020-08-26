@@ -1,0 +1,14 @@
+@keyframes wiggle {
+  0% { transform: skewX(4deg); }
+  30% { transform: skewX(-3deg); }
+  60% { transform: skewX(2deg); }
+  90% { transform: skewX(-1deg); }
+  100% { transform: skewX(0deg); }
+}
+
+.wiggle.go {
+  animation-name: wiggle;
+  animation-timing-function: ease-in;
+  animation-duration: .3s;
+  animation-fill-mode: both;
+}
